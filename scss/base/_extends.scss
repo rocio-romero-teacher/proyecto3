@@ -1,10 +1,47 @@
-$encabezado: (
-    bg-color: #2a9d8f,
-    posicion: sticky,
-    decoracion: none,
-    font-tamaño: 30px,
-    alineación: display flex,
-    al2: justify-content space-between,
-    espaciado: padding 10px, 
-);
+$background-color_1: #264653;
+$colorletras: #fff0f5;
+
+h1 {
+	h2 {
+		h3 {
+			h4 {
+				h5 {
+					color: $colorletras
+				}
+			}
+		}
+	}
+}
+
+.transicion1 {
+	&:hover {
+		transition: all .8s ease-out;
+		transform: scale(1.2);
+	}
+}
+
+
+.bgrnd {
+	background-color: $background-color_1;
+}
+
+.txtcolr {
+    color: #fff0f5;
+    padding-left: 10px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.txtmove {
+	font-size: 1.5rem;
+	display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+	animation: alternate-reverse 3s ease-in;
+}
+
+.txtcolr2 {
+    color: #fff0f5;
+    padding-left: 15px;
+    font-family: 'Roboto Serif', serif;
+}
 
