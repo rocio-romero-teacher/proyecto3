@@ -40,7 +40,7 @@ $font-family_1: roboto, serif;
 	background: linear-gradient(90deg, #96eb47,#96eb47, #96eb47);
 	background-repeat: no-repeat;
 	background-size: 80%;
-	animation: animate 5s linear;
+	animation: animate 5s linear infinite; 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(166, 231, 61, 0.5);
 }
@@ -54,7 +54,7 @@ $font-family_1: roboto, serif;
 	background: linear-gradient(90deg, #93ebbaa6,#96eb47, #96eb96);
 	background-repeat: no-repeat;
 	background-size: 80%;
-	animation: animate 5s linear;
+	animation: animate 5s linear infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(166, 231, 61, 0.5);
 

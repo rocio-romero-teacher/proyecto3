@@ -38,7 +38,7 @@ header {
   background: linear-gradient(90deg, #96eb47, #96eb47, #96eb47);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 5s linear;
+  animation: animate 5s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(166, 231, 61, 0.5);
 }
@@ -52,7 +52,7 @@ header {
   background: linear-gradient(90deg, rgba(147, 235, 186, 0.6509803922), #96eb47, #96eb96);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 5s linear;
+  animation: animate 5s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(166, 231, 61, 0.5);
 }
