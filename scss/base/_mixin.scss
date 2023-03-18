@@ -1,18 +1,16 @@
 
-header {
+h1{
 	background-color: #2a9d8f;
 	list-style-type: none;
 	font-family: 'Roboto Serif', serif;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #fff0f5;
 }
-
-.align {
-    display: inline-block;
-    align-content: center;
-    padding: 20px;
+nav {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .align2 {
@@ -34,28 +32,52 @@ $font-family_1: roboto, serif;
 .animation {
 	position: relative;
 	font-family: $font-family_1;
-	font-size: 2em;
+	font-size: 1.5rem;
 	letter-spacing: 4px;
 	overflow: hidden;
-	background: linear-gradient(90deg, #96eb47,#96eb47, #96eb47);
+	background: -webkit-linear-gradient(to right, #CAD624 0%, #1A4EDB 50%, #0BA333 100%);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	animation: animate 5s linear infinite; 
 	-webkit-background-clip: text;
+	background-clip: none;
 	-webkit-text-fill-color: rgba(166, 231, 61, 0.5);
 }
 
 .animation2 {
     position: relative;
 	font-family: $font-family_1;
-	font-size: 20px;
+	font-size: 1.2rem;
 	letter-spacing: 4px;
 	overflow: hidden;
-	background: linear-gradient(90deg, #93ebbaa6,#96eb47, #96eb96);
+	background: linear-gradient(to right, #CAD624 0%, #1A4EDB 50%, #0BA333 100%);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	animation: animate 5s linear infinite;
 	-webkit-background-clip: text;
+	background-clip: none;
 	-webkit-text-fill-color: rgba(166, 231, 61, 0.5);
-
 }
+
+.colorletra {
+	color:rgba(166, 231, 61, 0.5);
+	font-size: 1.5rem;
+}
+$background-color_1: #264653;
+
+.fondo {
+	background-color: $background-color_1;
+@media screen and (max-width: 700px) {
+	body {
+		font-size: 15px;
+		size-adjust: 250px 250px;
+	}
+	nav {
+		font-size: 15px;
+		padding: 0;
+		margin: 0;
+	}
+}
+}
+
+

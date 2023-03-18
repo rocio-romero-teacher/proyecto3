@@ -1,5 +1,7 @@
 $background-color_1: #264653;
 $colorletras: #fff0f5;
+$colorUno: #2a9d8f;
+$letra: 'Roboto Serif', serif;
 
 h1 {
 	h2 {
@@ -20,9 +22,21 @@ h1 {
 	}
 }
 
-
-.bgrnd {
-	background-color: $background-color_1;
+nav {
+	a {
+		&:hover {
+			font-size: 20px;
+			font-weight: bold;
+			background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+			box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+			background-position: 100% 0;
+			border-radius: 50px;
+			-moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-webkit-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+		}
+	}
 }
 
 .txtcolr {
@@ -45,3 +59,7 @@ h1 {
     font-family: 'Roboto Serif', serif;
 }
 
+header {
+	background-color: $colorUno;
+	font-family: 'Roboto Serif', serif;
+}
