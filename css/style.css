@@ -68,13 +68,15 @@ nav {
 }
 @media screen and (max-width: 700px) {
   .fondo body {
-    font-size: 15px;
-    size-adjust: 250px 250px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: -moz-grid-group;
+    justify-content: center;
   }
-  .fondo nav {
-    font-size: 15px;
-    padding: 0;
-    margin: 0;
+  .fondo body img {
+    width: 50px;
+    height: auto;
   }
 }
 
@@ -106,25 +108,25 @@ nav a:hover {
   font-family: "Roboto Serif", serif;
 }
 
-.txtmove {
-  font-size: 1.5rem;
-  display: inline-flex;
-  justify-content: center;
-  padding: 20px;
-  animation: alternate-reverse 3s ease-in;
-}
-
-.txtcolr2 {
-  color: #fff0f5;
-  padding-left: 15px;
-  font-family: "Roboto Serif", serif;
-}
-
 header {
   background-color: #2a9d8f;
   font-family: "Roboto Serif", serif;
 }
 
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(67, 67, 219);
+    color: white;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+    padding: 1rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

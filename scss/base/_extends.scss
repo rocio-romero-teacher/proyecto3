@@ -45,21 +45,26 @@ nav {
     font-family: 'Roboto Serif', serif;
 }
 
-.txtmove {
-	font-size: 1.5rem;
-	display: inline-flex;
-    justify-content: center;
-    padding: 20px;
-	animation: alternate-reverse 3s ease-in;
-}
-
-.txtcolr2 {
-    color: #fff0f5;
-    padding-left: 15px;
-    font-family: 'Roboto Serif', serif;
-}
-
 header {
 	background-color: $colorUno;
 	font-family: 'Roboto Serif', serif;
+}
+
+$color_1: white;
+$background-color_3: rgb(67, 67, 219);
+$background-color_4: olive;
+
+@media screen and (max-width: 992px) {
+	body {
+		background-color: $background-color_3;
+		color: $color_1;
+		padding: 1.5rem;
+	}
+}
+@media screen and (max-width: 600px) {
+	body {
+		background-color: $background-color_4;
+		color: $color_1;
+		padding: 1rem;
+	}
 }
